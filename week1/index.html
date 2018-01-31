@@ -1,17 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-<title>Hello World</title>
-<meta name="description" content="Hello">
+<!--this is home page-->
+  <html lang="en">
+	<head>
+      <title> mitchell leasing | Welcome | ML</title>
+		<!-- This is the meta-data for the web-page -->
+		<meta charset="UTF-8">
+		<meta name="description" content="properties rent, maintenats,  "/>
+		<meta name="keywords" content=" rent room, landlord, tenants, properties menagement ">
+		<meta name="author" content=" s mitchell 2017 All Rights Reserved"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="css/styes.cs?v=1.0">
-</head>
-<body>
+		<!-- This is the link between the html and the stylesheet CSS -->
+		<link rel="stylesheet" href="css/styles.css">		
+	
+	</head>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<script src="js/scripts.js"></script>
+	<body class="body">
+	<!-- This part of the code shows a div which contains the logo at the top of the page -->
+	  <header class="mainHeader">
+		<img src="img/logo.JPG" alt="logo" >	
+		<h1> Mitchell Leasing Aberdeen</h1>
+		<!-- Div tag which contains the internal links to get around the web page -->
+		<nav>
+		  <ul>				
+			<li class= "active"> <a href = "index.html"> Home </a> </li>					
+			<li> <a href = "properties.html"> Properties </a> </li>
+			<li> <a href = "landlord.html"> Landlord </a> </li>
+			<li> <a href = "tenants.html"> Tenants </a> </li>
+			<li> <a href = "contact.html"> Contact Us </a> </li>
+			<li> <a href = "about.html"> About Us </a> </li>						
+		   </ul>				
+		</nav>			
+	  </header>
+			
+	 	
+      <div class ="banner">		  
+		<img src ="img/banner.JPEG" alt="banner"> 
+	  </div>
+	  					  
+	  <section class="boxes">
+		  <div class ="box">
+		    <img src="./img/p1.JPG" alt="p1">
+			<div  class="details">
+			 <h2 class="header">New Property<br>(£1,100)</h2>
+			 <h3>7 The Fold Whiterashes, Aberdeen,<br> AB21 0LU<br></h3><h4>Description:</h4>
+<p>We are delighted to offer FOR LEASE this superb FOUR BEDROOM DETACHED DWELLINGHOUSE located within a small development of houses in WHITERASHES which has been uniquely designed. Commanding spectacular panoramic views over the countryside and beyond, this most welcoming home is set on a large plot and enjoys the comforts of oil fired central heating, double glazed windows and fully enclosed garden. The lower floor accommodation comprises of entrance vestibule, large inviting hallway, elegant lounge and kitchen/dining area which is on open plan and leads through to the beautiful conservatory. Continuing downstairs is the formal dining room, double bedroom, family bathroom and utility room. On the upper level is the large master bedroom with en suite shower room, two further good sized double bedrooms and an additional bathroom. Outside to the front the large loc block driveway provides ample off street parking and leads to the spacious garage. The front garden is stocked with seasonal plants and shrubs and an additional grassed area. To the rear is the large fully enclosed garden mainly laid to lawn with a lovely raised decking area ideal for alfresco dining. The property is available on an unfurnished basis with the restriction of no smokers and no students. Viewing is essential to appreciate the accommodations and location on offer.</p>
+		    </div>
+		  </div>
+					
+		  <div class ="box">
+			<img src="./img/p2.JPG" alt="p2">
+			<div  class="details">
+			  <h2>Special Property<br>(/£900/month)</h2>
+			  <h3>108D, Anderson Drive Aberdeen,<br> AB15 6B </h3>
+			  <h4>Description: </h4> 
+			  <p>We are delighted to offer for lease, situated on the first floor of a modern purpose built small exclusive development, this TWO BEDROOM EXECUTIVE APARTMENT on a FULLY FURNISHED basis.
+This property is situated to the rear of which would have originally been the Earls Court Hotel. It is an excellent location for access to both north and south of the city where many of the office and industrial complexes are situated. It is also close to Hill of Rubislaw where there is a large office complex. There are good public transport facilities available on Queens Road. Queens Road itself has an abundance of quality restaurants and hotels and a short drive leads to Hazlehead Park where there is a further restaurant, nine and 18 hole golf courses.</p>
+            </div>
+		  </div>
+					
+		  <div class ="box">
+			<img src="./img/p3.JPG" alt="p3">
+			<div  class="details">
+			  <h2>Property of the week (£700/month)</h2>
+			  <h3>9 Northfield Place<br>Aberdeen, AB25 1SB</h3>
+			  <h4>Description:</h4>
+			  <p>Situated in a quiet no through road in a popular and central area of the city, this studio flat presents an excellent opportunity for the first time buyer looking to put their own stamp on a property. The property offers well proportioned rooms and benefits from gas central heating and double glazing throughout. The clean and tidy communal hallway with security entry system provides access to the flat itself, with an internal hallway providing access to all accommodation. The flat also has a security alarm system. The room to the front of the home offers living space and bedroom accommodation, with fitted wall to wall furniture which comprises a fold-away bed as well as two wardrobes and further overhead storage which really maximises the space, ideal for its dual purpose. To the rear, the dining kitchen is fitted with a range of units overlaid with work surfaces and incorporating a stainless steel sink and drainer. There is space for freestanding appliances. A large walk in under stair cupboard provides a wealth of storage and there is also a further high level storage space. Completing the accommodation is the bathroom with three piece suite comprising W.C., wash hand basin and bath with electric shower over as well as a further built in storage/airing cupboard.</p>
+		    </div>					
+		  </div>
+	  </section>
+			
+	  <section class="newsletter">
+		  <h4> If you'd like a free newsletter, please sign up to our mailing list and we'll get one sent straight to your e-mail: </h4>
+		  <form action="php/join.php" method="post">
+			Forename: <input type="text" name="forename" placeholder="forename">
+			Surname: <input type="text" name="surname" placeholder="surename">
+			Email Address :<input type="email" placeholder="Enter Email...">
+			<button type ="submit" class ="button"> Join </button>
+		  </form>
+	  </section>			
+					
+	  <footer class=" mainfooter"	>
+		<p>Smitchell @  All  Copy Rights Reserved 2017<a href="#" title= "ml">mitchellleasing.com</a></p>
+	  </footer>
+									
+		
+<!-- Closes the body section and then the web page -->
+	</body>
 
-</body>
 </html>
